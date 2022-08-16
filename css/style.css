@@ -1,0 +1,84 @@
+/* GLOBAIS */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--body-bg-color);
+}
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*  */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header a {
+  color: var(--purple);
+  margin-top: 12px;
+  margin-left: 40px;
+}
+
+.header img {
+  height: 200px;
+  width: 200px;
+  border: 2px solid var(--purple);
+  border-radius: 50%;
+  padding: 3px;
+  margin-left: 40px;
+}
+
+.menu-links li a {
+  color: var(--purple);
+  font-weight: bold;
+  border: 2px solid var(--purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 324px;
+  margin-top: 12px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.menu-links li a:hover {
+  color: var(--body-bg-color);
+  background-color: var(--purple);
+}
+
+.socias img {
+  margin-top: 25px;
+  margin-left: 24px;
+  cursor: pointer;
+}
